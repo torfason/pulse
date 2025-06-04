@@ -1,0 +1,17 @@
+Package: pulse
+Title: Updates a file regularly
+Version: 0.1.0
+Authors@R: 
+    person("Magnus Thor", "Torfason", , "m@zulutime.net", role = c("aut", "cre"))
+Description: Updates a file in the repository regularly.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: 
+    fs,
+    here
+Suggests: 
+    testthat (>= 3.0.0),
+    readr
+Config/testthat/edition: 3
