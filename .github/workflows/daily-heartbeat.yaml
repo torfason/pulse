@@ -2,13 +2,13 @@
 
 on:
   schedule:
-    # - cron: '0  * * * *'  # Every hour
-    - cron: '54 17  *  *  *'
-           #  │  │  │  │  └─ day of week
-           #  │  │  │  └──── month
-           #  │  │  └─────── day of month
-           #  │  └────────── hour
-           #  └───────────── minute
+    - cron: '17 16  *  * 1-5'  # Weekdays (Mon–Fri) at 16:17 UTC
+    - cron: '13  1  *  *   2'  # Tuesdays at 01:13 UTC
+           #  │  │  │  │   └─ day of week
+           #  │  │  │  └───── month
+           #  │  │  └──────── day of month
+           #  │  └─────────── hour
+           #  └────────────── minute
   workflow_dispatch:
 
 name: Hourly Heartbeat Action
