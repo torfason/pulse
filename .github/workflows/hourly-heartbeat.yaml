@@ -5,12 +5,12 @@ on:
     - cron: '0 * * * *'  # Every hour
   workflow_dispatch:
 
-name: Hourly Append Date
+name: Hourly Heartbeat Action
 
 permissions: write-all
 
 jobs:
-  append-date:
+  hourly-heartbeat-job:
     runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
@@ -26,8 +26,11 @@ jobs:
         with:
           extra-packages: any::glue,any::fs
 
-      - name: Run append_date function
-        run: Rscript -e 'autorun_test::append_date()'
+      - name: Install local package
+        run: R CMD INSTALL .
+
+      - name: Run heartbeat function
+        run: Rscript -e 'pulse::heartbeat()'
 
       - name: Commit and push log
         run: |
