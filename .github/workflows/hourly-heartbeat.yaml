@@ -2,8 +2,14 @@
 
 on:
   schedule:
-    # - cron: '0 * * * *'  # Every hour
-    - cron: '*/5 * * * *'  # Attempt to run every 5 minutes
+    # - cron: '0  * * * *'  # Every hour
+    - cron: '44 17  *  *  *'
+           #  │  │  │  │  └─ day of week
+           #  │  │  │  └──── month
+           #  │  │  └─────── day of month
+           #  │  └────────── hour
+           #  └───────────── minute
+
   workflow_dispatch:
 
 name: Hourly Heartbeat Action
