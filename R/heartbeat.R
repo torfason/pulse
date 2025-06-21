@@ -7,12 +7,33 @@ heartbeat <- function() {
 
   # Variables
   timestamp <- Sys.time()
-  log_dir  <- here::here("inst")
-  log_file <- fs::path(log_dir, "log.txt")
+  output_dir   <- here::here("inst")
+  log_file     <- fs::path(output_dir, "log.txt")
+  sysinfo_file <- fs::path(output_dir, "sysinfo.txt")
 
-  # Output
-  fs::dir_create(log_dir)
+  # Ensure output directory exists
+  fs::dir_create(output_dir)
+
+  # Append date to log file
   cat(format(timestamp), "\n", file = log_file, append = TRUE)
+
+  # Prepare system info to write to sysinfo file
+  system_info <- tibble::tribble(
+    ~Attribute,           ~Value,
+    "Working Directory:", getwd(),
+    "R Version:",         R.version.string,
+    "Platform:",          R.version$platform,
+    "OS Type:",           .Platform$OS.type,
+    "System:",            Sys.info()[["sysname"]],
+    "Release:",           Sys.info()[["release"]],
+    "Version:",           Sys.info()[["version"]],
+    "Machine:",           Sys.info()[["machine"]],
+    "User:",              Sys.info()[["user"]],
+    "Time:",              as.character(Sys.time())
+  )
+
+  # Write to file (write_fwf is an internally defined function)
+  write_fwf(system_info, sysinfo_file)
 
   # Good hygiene to return NULL
   invisible(NULL)
