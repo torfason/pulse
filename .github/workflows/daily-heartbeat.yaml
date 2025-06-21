@@ -11,7 +11,7 @@ on:
            #  └────────────── minute
   workflow_dispatch:
 
-name: Hourly Heartbeat Action
+name: Daily Heartbeat Action
 
 permissions: write-all
 
