@@ -1,0 +1,11 @@
+Attribute           Value                                                
+Working Directory:  /home/runner/work/pulse/pulse                        
+R Version:          R version 4.5.1 (2025-06-13)                         
+Platform:           x86_64-pc-linux-gnu                                  
+OS Type:            unix                                                 
+System:             Linux                                                
+Release:            6.11.0-1015-azure                                    
+Version:            #15~24.04.1-Ubuntu SMP Thu May  1 02:52:08 UTC 2025  
+Machine:            x86_64                                               
+User:               runner                                               
+Time:               2025-06-21 10:28:37.864086                           
