@@ -20,16 +20,18 @@ heartbeat <- function() {
   # Prepare system info to write to sysinfo file
   system_info <- tibble::tribble(
     ~Attribute,           ~Value,
-    "Working Directory:", getwd(),
-    "R Version:",         R.version.string,
-    "Platform:",          R.version$platform,
+    "Time:",              as.character(Sys.time()),
+    "User:",              Sys.info()[["user"]],
+    "Machine:",           Sys.info()[["machine"]],
     "OS Type:",           .Platform$OS.type,
     "System:",            Sys.info()[["sysname"]],
     "Release:",           Sys.info()[["release"]],
+    "Platform:",          R.version$platform,
     "Version:",           Sys.info()[["version"]],
-    "Machine:",           Sys.info()[["machine"]],
-    "User:",              Sys.info()[["user"]],
-    "Time:",              as.character(Sys.time())
+    "R Version:",         R.version.string,
+    "Working Directory:", getwd(),
+    "Files - ls(.):",     list.files(".") |> paste(collapse = ":"),
+    "Files - ls(..):",    list.files("..") |> paste(collapse = ":"),
   )
 
   # Write to file (write_fwf is an internally defined function)
