@@ -32,6 +32,7 @@ heartbeat <- function() {
     "Working Directory:", getwd(),
     "Files - ls(.):",     list.files(".") |> paste(collapse = ":"),
     "Files - ls(..):",    list.files("..") |> paste(collapse = ":"),
+    "Files - ls(../..):", list.files(fs::path("..", "..")) |> paste(collapse = ":"),
   )
 
   # Write to file (write_fwf is an internally defined function)
