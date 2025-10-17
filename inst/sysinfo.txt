@@ -1,12 +1,12 @@
 Attribute           Value                                                                  
-Time:               2025-10-16 16:41:14.188835                                             
+Time:               2025-10-17 16:40:07.566677                                             
 User:               runner                                                                 
 Machine:            x86_64                                                                 
 OS Type:            unix                                                                   
 System:             Linux                                                                  
-Release:            6.11.0-1018-azure                                                      
+Release:            6.14.0-1012-azure                                                      
 Platform:           x86_64-pc-linux-gnu                                                    
-Version:            #18~24.04.1-Ubuntu SMP Sat Jun 28 04:46:03 UTC 2025                    
+Version:            #12~24.04.1-Ubuntu SMP Tue Sep  9 19:01:23 UTC 2025                    
 R Version:          R version 4.5.1 (2025-06-13)                                           
 Working Directory:  /home/runner/work/pulse/pulse                                          
 Files - ls(.):      DESCRIPTION:inst:LICENSE:LICENSE.md:man:NAMESPACE:pulse.Rproj:R:tests  
