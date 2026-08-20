@@ -1,7 +1,7 @@
-run  pid   tmp                               
-1    5923  /tmp/RtmpxZ2l6k/file172313713b1f  
-2    5921  /tmp/RtmpEOUgfX/file17215ac0f7ab  
-3    5925  /tmp/RtmpUfK46u/file1725147bc6bc  
-4    5921  /tmp/RtmpEOUgfX/file17213f69c569  
-5    5921  /tmp/RtmpEOUgfX/file17212aab02ab  
-6    5921  /tmp/RtmpEOUgfX/file17212986bcdc  
+run  pid    tmp                                                                            
+1    13802  /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T//RtmpS7vxus/file35ea7dd7067a  
+2    13804  /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T//RtmpbAoqnO/file35ec4d3a4a1c  
+3    13810  /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T//RtmpJ03QUq/file35f26ad98f93  
+4    13810  /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T//RtmpJ03QUq/file35f2716132b2  
+5    13810  /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T//RtmpJ03QUq/file35f224477e45  
+6    13810  /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T//RtmpJ03QUq/file35f251b2f69e  
