@@ -1,15 +1,15 @@
-Attribute           Value                                                                                                      
-Time:               2026-08-20 17:55:23.678189                                                                                 
-User:               runner                                                                                                     
-Machine:            arm64                                                                                                      
-OS Type:            unix                                                                                                       
-System:             Darwin                                                                                                     
-Release:            25.5.0                                                                                                     
-Platform:           aarch64-apple-darwin23                                                                                     
-Version:            Darwin Kernel Version 25.5.0: Tue Jun  9 22:26:00 PDT 2026; root:xnu-12377.121.10~1/RELEASE_ARM64_VMAPPLE  
-R Version:          R version 4.6.1 (2026-06-24)                                                                               
-Working Directory:  /Users/runner/work/pulse/pulse                                                                             
-Files - ls(.):      DESCRIPTION:inst:LICENSE:LICENSE.md:man:NAMESPACE:pulse.Rproj:R:tests                                      
-Files - ls(..):     pulse                                                                                                      
-Files - ls(../..):  _actions:_PipelineMapping:_temp:pulse                                                                      
-Tempfile:           /var/folders/df/djsxfhc17x95674wsm_g8s980000gn/T//RtmpLQEZri/file35d77db8e08a                              
+Attribute           Value                                                                  
+Time:               2026-08-20 18:04:09.140548                                             
+User:               runneradmin                                                            
+Machine:            x86-64                                                                 
+OS Type:            windows                                                                
+System:             Windows                                                                
+Release:            Server x64                                                             
+Platform:           x86_64-w64-mingw32                                                     
+Version:            build 26100                                                            
+R Version:          R version 4.6.1 (2026-06-24 ucrt)                                      
+Working Directory:  D:/a/pulse/pulse                                                       
+Files - ls(.):      DESCRIPTION:inst:LICENSE:LICENSE.md:man:NAMESPACE:pulse.Rproj:R:tests  
+Files - ls(..):     pulse                                                                  
+Files - ls(../..):  _actions:_PipelineMapping:_temp:pulse                                  
+Tempfile:           C:\Users\RUNNER~1\AppData\Local\Temp\RtmpQzi1OM\file1cb0517c52ec       
