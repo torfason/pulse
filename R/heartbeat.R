@@ -41,7 +41,8 @@ heartbeat <- function() {
   write_fwf(system_info, sysinfo_file)
 
   # Call mirai_beat() to get info about tempfile behavior, then write it to file
-  tempfile_info <- mirai_beat()
+  #tempfile_info <- mirai_beat()
+  tempfile_info <- tibble::tibble(tmp = "foo", file = tempfile())
   write_fwf(tempfile_info, tmpinfo_file)
 
   # Good hygiene to return NULL
