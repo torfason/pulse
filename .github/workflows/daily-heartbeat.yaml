@@ -33,6 +33,7 @@ jobs:
           extra-packages: any::glue,any::fs
 
       - name: Install local package
+        shell: bash
         run: R CMD INSTALL .
 
       - name: Run heartbeat function
