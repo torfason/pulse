@@ -42,7 +42,6 @@ jobs:
         run: |
           git config --local user.name "GitHub Actions"
           git config --local user.email "actions@github.com"
-          git add inst/log.txt
-          git add inst/sysinfo.txt
+          git add inst
           git diff --cached --quiet || git commit -m "Regular heartbeat"
           git push
