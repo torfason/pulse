@@ -17,7 +17,7 @@ permissions: write-all
 
 jobs:
   hourly-heartbeat-job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
 
