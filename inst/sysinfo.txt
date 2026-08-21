@@ -1,15 +1,15 @@
 Attribute           Value                                                                  
-Time:               2026-08-20 18:04:09.140548                                             
-User:               runneradmin                                                            
-Machine:            x86-64                                                                 
-OS Type:            windows                                                                
-System:             Windows                                                                
-Release:            Server x64                                                             
-Platform:           x86_64-w64-mingw32                                                     
-Version:            build 26100                                                            
-R Version:          R version 4.6.1 (2026-06-24 ucrt)                                      
-Working Directory:  D:/a/pulse/pulse                                                       
+Time:               2026-08-21 16:51:23.067844                                             
+User:               runner                                                                 
+Machine:            x86_64                                                                 
+OS Type:            unix                                                                   
+System:             Linux                                                                  
+Release:            6.17.0-1022-azure                                                      
+Platform:           x86_64-pc-linux-gnu                                                    
+Version:            #22-Ubuntu SMP Mon Jul 27 17:24:03 UTC 2026                            
+R Version:          R version 4.6.1 (2026-06-24)                                           
+Working Directory:  /home/runner/work/pulse/pulse                                          
 Files - ls(.):      DESCRIPTION:inst:LICENSE:LICENSE.md:man:NAMESPACE:pulse.Rproj:R:tests  
 Files - ls(..):     pulse                                                                  
 Files - ls(../..):  _actions:_PipelineMapping:_temp:pulse                                  
-Tempfile:           C:\Users\RUNNER~1\AppData\Local\Temp\RtmpQzi1OM\file1cb0517c52ec       
+Tempfile:           /tmp/Rtmpg8W9OH/file18386e09f5f5                                       
