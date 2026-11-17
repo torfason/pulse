@@ -1,15 +1,15 @@
 Attribute           Value                                                                  
-Time:               2026-11-17 09:11:45.706244                                             
+Time:               2026-11-17 23:43:46.915189                                             
 User:               runner                                                                 
 Machine:            x86_64                                                                 
 OS Type:            unix                                                                   
 System:             Linux                                                                  
-Release:            7.0.0-1017-azure                                                       
+Release:            7.0.0-1016-aws                                                         
 Platform:           x86_64-pc-linux-gnu                                                    
-Version:            #17~24.04.1-Ubuntu SMP PREEMPT Thu Sep 24 18:46:57 UTC 2026            
+Version:            #17-Ubuntu SMP PREEMPT Mon Oct 19 17:36:33 UTC 2026                    
 R Version:          R version 4.6.2 (2026-10-29)                                           
 Working Directory:  /home/runner/work/pulse/pulse                                          
 Files - ls(.):      DESCRIPTION:inst:LICENSE:LICENSE.md:man:NAMESPACE:pulse.Rproj:R:tests  
 Files - ls(..):     pulse                                                                  
 Files - ls(../..):  _actions:_PipelineMapping:_temp:pulse                                  
-Tempfile:           /tmp/RtmpIdrS77/file170739ce7019                                       
+Tempfile:           /tmp/RtmpfpCvOO/file174865375804                                       
